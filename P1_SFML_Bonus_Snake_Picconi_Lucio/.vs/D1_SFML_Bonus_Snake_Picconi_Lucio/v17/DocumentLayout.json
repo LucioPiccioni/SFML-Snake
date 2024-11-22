@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\",
+  "WorkspaceRootPath": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|solutionrelative:src\\snakeGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\scripts\\release.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\release.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|solutionrelative:src\\snakeGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|solutionrelative:src\\snakeGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12FE120B-DA2D-4519-BAF8-F3D11327A685}|P1_SFML_Bonus_Snake_Picconi_Lucio.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,47 +29,60 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "release.bat",
+              "DocumentMoniker": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\scripts\\release.bat",
+              "RelativeDocumentMoniker": "scripts\\release.bat",
+              "ToolTip": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\scripts\\release.bat",
+              "RelativeToolTip": "scripts\\release.bat",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVDhPY6AI/P//n7G1s\u002Bc/lEsWYILSRANbaysUmgHkgl\u002B/fpGFQXqxuuDkyZMMEydOBNOEAIYBixYvZhARl2QIiohi4BeTYJg\u002BcxZUBjtAMeDSpUsM1rb2DEoKcgwnDx9kUFOQZ7BxcQeL4wIoBuzfv5\u002BBjZOTYe2aNQyRkZEM69auYWBjY2VYv3UHw4otuxl2HzzK8OPHD6hqCEAxwNHRkeHrt28MQcEhDMuXL2cIANLP33xgUPdNYdB3dGN4JajGcPrSVahqCEAxQE9Pj\u002BHE4UMMV\u002B89ZNC1tGW4dOcBw7kzZxn0lYQZLj/5zGCoLMrw9NU7qGoIwAjEhLhYhm9vXjDsWLOC4fe7lwxm\u002BloMl\u002B69ZdCV4WW4cO8Ng4meNlQlBLBAaRRgbm4OxiAA8vOPU2cZLj34xqCnpswgIyYFFocBDBegAw4ODgYXO2uGcB9XBh01JTAfGVCcFwYaMDAAABi9qE6NKlarAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-22T15:35:34.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "snakeGame.h",
-              "DocumentMoniker": "C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.h",
+              "DocumentMoniker": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.h",
               "RelativeDocumentMoniker": "src\\snakeGame.h",
-              "ToolTip": "C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.h",
+              "ToolTip": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.h",
               "RelativeToolTip": "src\\snakeGame.h",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADAAAAAPAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAswDUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-22T13:02:00.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "snakeGame.cpp",
-              "DocumentMoniker": "C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.cpp",
+              "DocumentMoniker": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.cpp",
               "RelativeDocumentMoniker": "src\\snakeGame.cpp",
-              "ToolTip": "C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.cpp",
+              "ToolTip": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\snakeGame.cpp",
               "RelativeToolTip": "src\\snakeGame.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-22T12:45:20.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\main.cpp",
               "RelativeDocumentMoniker": "src\\main.cpp",
-              "ToolTip": "C:\\Users\\Aula 1\\Desktop\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\Aula 1\\Documents\\GitHub\\SFML-Snake\\P1_SFML_Bonus_Snake_Picconi_Lucio\\src\\main.cpp",
               "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-22T12:45:19.313Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

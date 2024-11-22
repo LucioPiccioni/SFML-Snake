@@ -1,16 +1,20 @@
 ﻿#include "SnakeGame.h"
 
+#include <string>
+
 SnakeGame::SnakeGame(int winLength, int width, int height)
-	: cellSize(width), winSnakeLength(winLength), screenWidth(width), screenHeight(height),
-	window(sf::VideoMode(width * cellSize, height * cellSize), "Snake Game")
+	: cellSize(static_cast<float>(width)), winSnakeLength(winLength), screenWidth(width), screenHeight(height),
+	window(sf::VideoMode(width * static_cast<int>(cellSize), height* static_cast<int>(cellSize)), "Snake Game")
 {
 }
 
 void SnakeGame::play()
 {
-	loadSprites();
+	std::srand(static_cast<int>(std::time(nullptr)));
 
 	init();
+
+	loadAssets();
 
 	loop();
 }
@@ -27,19 +31,14 @@ void SnakeGame::init()
 	Vector2x2 initialSegment = { {screenWidth / 2, screenHeight / 2}, {screenWidth / 2, screenHeight / 2} };
 	snakePos.push_back(initialSegment);
 
-	snakeBlock.setSize(sf::Vector2f(cellSize, cellSize));
-	snakeBlock.setFillColor(sf::Color(255, 165, 0));
-
-	foodBlock.setSize(sf::Vector2f(cellSize, cellSize));
-	foodBlock.setFillColor(sf::Color(50, 205, 50));
-
-
 	currentSnakeLength = 1;
 
-	std::srand(std::time(nullptr));
+	std::string text = "Length: " + std::to_string(currentSnakeLength) + " / " + std::to_string(winSnakeLength);
+
+	textScore.setString(text);
 }
 
-void SnakeGame::loadSprites()
+void SnakeGame::loadAssets()
 {
 	loadBackGround.loadFromFile("res/Grass2.png");
 	backGround.setTexture(loadBackGround);
@@ -69,6 +68,14 @@ void SnakeGame::loadSprites()
 	float scaleHeadY = cellSize / loadheadTexture.getSize().y;
 	headSprite.setScale(scaleHeadX, scaleHeadY);
 	headSprite.setOrigin(headSprite.getLocalBounds().width / 2, headSprite.getLocalBounds().height / 2);
+
+	font.loadFromFile("res/Wake Snake Free Trial.ttf");
+
+	textScore.setFont(font);
+
+	textScore.setCharacterSize(24);
+	textScore.setFillColor(sf::Color::Black);
+	textScore.setStyle(sf::Text::Bold);
 }
 
 void SnakeGame::loop()
@@ -111,6 +118,10 @@ void SnakeGame::update()
 	{
 		currentSnakeLength++;
 
+		std::string text = "Length: " + std::to_string(currentSnakeLength) + " / " + std::to_string(winSnakeLength);
+
+		textScore.setString(text);
+
 		isGameOver = didPlayerWin();
 
 		Vector2x2 newSnakePart;
@@ -139,6 +150,7 @@ void SnakeGame::draw()
 	window.clear();
 	window.draw(backGround);
 
+
 	appleSprite.setPosition(food.x * cellSize + 10, food.y * cellSize + 10);
 	window.draw(appleSprite);
 
@@ -150,6 +162,8 @@ void SnakeGame::draw()
 		bodySprite.setPosition(segment->actual.x * cellSize + 10, segment->actual.y * cellSize + 10);
 		window.draw(bodySprite);
 	}
+
+	window.draw(textScore);
 
 	window.display();
 }

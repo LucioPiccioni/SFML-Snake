@@ -2,7 +2,8 @@
 
 int main() 
 {
-    SnakeGame game(25 * 25, 25, 25);
+
+    SnakeGame game(23 * 23, 23, 23);
 
     game.play();
 

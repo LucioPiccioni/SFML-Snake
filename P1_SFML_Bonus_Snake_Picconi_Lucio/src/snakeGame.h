@@ -22,7 +22,7 @@ private:
 	};
 
 	void init();
-	void loadSprites();
+	void loadAssets();
 
 	void loop();
 	void update();
@@ -46,6 +46,9 @@ private:
 	int screenHeight;
 	int currentSnakeLength = 1;
 
+	sf::Font font;
+	sf::Text textScore;
+
 	float cellSize;
 
 	bool isGameOver = false;
@@ -57,8 +60,6 @@ private:
 	char lastValidInput = ' ';
 
 	sf::RenderWindow window;
-	sf::RectangleShape snakeBlock;
-	sf::RectangleShape foodBlock;
 
 	sf::Texture loadBackGround;
 	sf::Sprite backGround;
